@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //변수:데이터를 저장하는 공간
+        /* var 시은 = 10;
+        var 인근 = "javaScript";
+        var 정민 = "true";*/
+
+        var 시은 = 10,
+            인근 = "javaScript",
+            정민 = true;
+
+        var 텍스트1 = "자바스크립트";
+        var 텍스트2 = "기초";
+        document.write(텍스트1 + 텍스트2) //+가 글자를 연결하는 역할
+
+        var 민수 = "2";
+        var 민숙 = 4;
+        var 말숙 = 3;
+        document.write("<br>")
+        document.write(민수 + 민숙) //24 
+        document.write("<br>")
+        document.write(민숙 + 민수) //42 ->+를 사용 할 경우 ""를 사용하지 않은 숫자 4는 문자로 인식해서 더하기가 되지않음
+        document.write("<br>")
+        document.write(민숙 + 말숙 + 민수) //72 ->숫자로 인식하는 
+        document.write("<br>")
+        document.write(민수 + 민숙 + 말숙) //243
+        document.write("<br>")
+        document.write(민수 - 민숙) //-2 ->+를 제외한 기호들은 ""안에 들어있는 숫자, ""안에 들어있지 않은 숫자 모두 숫자로 인식해서 계산됨
+        document.write("<br>")
+
+        // 문자화숫자는 +를 제외한 다른 연산자에서는 숫자로 변환된다
+
+        document.write(민수 - 민숙 + "<br>") //-2
+        document.write(민수 * 민숙 + "<br>") //8
+        document.write(민숙 / 민수 + "<br>") //2
+
+        var 일동 = 5;
+        var 이동 = 2;
+        document.write(일동 % 이동 + "<br>") //1,나누기(나머지)
+
+         var 후치=3;
+       후치++;//하나더해짐 //후치=후치+1
+       document.write(후치 + "<br>")//4
+
+       var 전치=3;
+       ++전치;
+       document.write(전치 + "<br>")//4
+
+       var 오동=5;
+       오동 = 오동 + 1;
+       document.write(오동)//6
+
+        //시은이 정리//
+        // ++@는 바로 더해서 나오고 @++는 원래 값 나오고 다시 부르면 더한 값 나오는 것이다!!//
+    </script>
+</body>
+
+</html>
